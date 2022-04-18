@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		228485BD280DD45B0009D871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228485BC280DD45B0009D871 /* AppDelegate.swift */; };
 		228485BF280DD45B0009D871 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228485BE280DD45B0009D871 /* SceneDelegate.swift */; };
-		228485C1280DD45B0009D871 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228485C0280DD45B0009D871 /* ViewController.swift */; };
 		228485C4280DD45B0009D871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228485C2280DD45B0009D871 /* Main.storyboard */; };
 		228485C6280DD4610009D871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228485C5280DD4610009D871 /* Assets.xcassets */; };
 		228485C9280DD4610009D871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228485C7280DD4610009D871 /* LaunchScreen.storyboard */; };
+		228485D1280DD94C0009D871 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228485D0280DD94C0009D871 /* LandingViewController.swift */; };
+		228485D3280DDB550009D871 /* MyWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228485D2280DDB550009D871 /* MyWorkoutViewController.swift */; };
+		228485D5280DDB720009D871 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228485D4280DDB720009D871 /* SearchViewController.swift */; };
+		228485D7280DDB900009D871 /* WeeklyScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228485D6280DDB900009D871 /* WeeklyScheduleViewController.swift */; };
+		6EC01C48A6D0FDF1BFF2C19B /* Pods_GitFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB595D3DB51AE77ED7D00C12 /* Pods_GitFit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		228485B9280DD45B0009D871 /* GitFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		228485BC280DD45B0009D871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		228485BE280DD45B0009D871 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		228485C0280DD45B0009D871 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		228485C3280DD45B0009D871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		228485C5280DD4610009D871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		228485C8280DD4610009D871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		228485CA280DD4610009D871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		228485D0280DD94C0009D871 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		228485D2280DDB550009D871 /* MyWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkoutViewController.swift; sourceTree = "<group>"; };
+		228485D4280DDB720009D871 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		228485D6280DDB900009D871 /* WeeklyScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyScheduleViewController.swift; sourceTree = "<group>"; };
+		454FD4359909BA2949DCFBA7 /* Pods-GitFit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitFit.release.xcconfig"; path = "Target Support Files/Pods-GitFit/Pods-GitFit.release.xcconfig"; sourceTree = "<group>"; };
+		A404A474B408BFBAE3A6BE01 /* Pods-GitFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitFit.debug.xcconfig"; path = "Target Support Files/Pods-GitFit/Pods-GitFit.debug.xcconfig"; sourceTree = "<group>"; };
+		CB595D3DB51AE77ED7D00C12 /* Pods_GitFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EC01C48A6D0FDF1BFF2C19B /* Pods_GitFit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21F5113F7A9E6BB33F10636E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB595D3DB51AE77ED7D00C12 /* Pods_GitFit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		228485B0280DD45B0009D871 = {
 			isa = PBXGroup;
 			children = (
 				228485BB280DD45B0009D871 /* GitFit */,
 				228485BA280DD45B0009D871 /* Products */,
+				A43FCE91D15D9A7734A47812 /* Pods */,
+				21F5113F7A9E6BB33F10636E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +79,26 @@
 			children = (
 				228485BC280DD45B0009D871 /* AppDelegate.swift */,
 				228485BE280DD45B0009D871 /* SceneDelegate.swift */,
-				228485C0280DD45B0009D871 /* ViewController.swift */,
 				228485C2280DD45B0009D871 /* Main.storyboard */,
 				228485C5280DD4610009D871 /* Assets.xcassets */,
 				228485C7280DD4610009D871 /* LaunchScreen.storyboard */,
 				228485CA280DD4610009D871 /* Info.plist */,
+				228485D0280DD94C0009D871 /* LandingViewController.swift */,
+				228485D2280DDB550009D871 /* MyWorkoutViewController.swift */,
+				228485D4280DDB720009D871 /* SearchViewController.swift */,
+				228485D6280DDB900009D871 /* WeeklyScheduleViewController.swift */,
 			);
 			path = GitFit;
+			sourceTree = "<group>";
+		};
+		A43FCE91D15D9A7734A47812 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A404A474B408BFBAE3A6BE01 /* Pods-GitFit.debug.xcconfig */,
+				454FD4359909BA2949DCFBA7 /* Pods-GitFit.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +108,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 228485CD280DD4610009D871 /* Build configuration list for PBXNativeTarget "GitFit" */;
 			buildPhases = (
+				CD84EA6B3AD11D0F551BC9A1 /* [CP] Check Pods Manifest.lock */,
 				228485B5280DD45B0009D871 /* Sources */,
 				228485B6280DD45B0009D871 /* Frameworks */,
 				228485B7280DD45B0009D871 /* Resources */,
+				D610DB9C8C952F4B2A7B2FC1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +169,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CD84EA6B3AD11D0F551BC9A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitFit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D610DB9C8C952F4B2A7B2FC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitFit/Pods-GitFit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitFit/Pods-GitFit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GitFit/Pods-GitFit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		228485B5280DD45B0009D871 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				228485C1280DD45B0009D871 /* ViewController.swift in Sources */,
+				228485D7280DDB900009D871 /* WeeklyScheduleViewController.swift in Sources */,
+				228485D5280DDB720009D871 /* SearchViewController.swift in Sources */,
+				228485D3280DDB550009D871 /* MyWorkoutViewController.swift in Sources */,
 				228485BD280DD45B0009D871 /* AppDelegate.swift in Sources */,
+				228485D1280DD94C0009D871 /* LandingViewController.swift in Sources */,
 				228485BF280DD45B0009D871 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +365,7 @@
 		};
 		228485CE280DD4610009D871 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A404A474B408BFBAE3A6BE01 /* Pods-GitFit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +393,7 @@
 		};
 		228485CF280DD4610009D871 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 454FD4359909BA2949DCFBA7 /* Pods-GitFit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
