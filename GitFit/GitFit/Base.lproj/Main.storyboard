@@ -25,7 +25,6 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="onLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KmG-Ts-6ii"/>
-                                    <segue destination="pRn-1s-29G" kind="show" identifier="loginToMain" id="lpz-yA-3uh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mfc-0X-3Yn">
@@ -36,8 +35,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="onLogout:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RLc-jL-HYn"/>
-                                    <segue destination="pRn-1s-29G" kind="show" identifier="signupToMain" id="hRU-fi-XY8"/>
+                                    <action selector="onSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iA9-gy-RrH"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wbd-hX-jIQ">
@@ -66,6 +64,7 @@
                     <connections>
                         <outlet property="passwordTextField" destination="vMS-gv-cWv" id="B3y-pP-Dj2"/>
                         <outlet property="usernameTextField" destination="wbd-hX-jIQ" id="Ju3-Lt-ceJ"/>
+                        <segue destination="pRn-1s-29G" kind="show" identifier="landingToMain" id="Udr-ik-sAg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -171,9 +170,6 @@
             <point key="canvasLocation" x="732" y="1624"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="hRU-fi-XY8"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

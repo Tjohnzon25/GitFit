@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Parse
 
 class LandingViewController: UIViewController {
     
@@ -18,10 +19,33 @@ class LandingViewController: UIViewController {
     
     
     @IBAction func onLogin(_ sender: Any) {
+        
+        let username = usernameTextField.text!
+        let password = passwordTextField.text!
+                
+        PFUser.logInWithUsername(inBackground: username, password: password) { user, error in
+            if user != nil {
+                self.performSegue(withIdentifier: "landingToMain", sender: nil)
+            } else {
+                print("ERROR: \(String(describing: error?.localizedDescription))")
+            }
+        }
     }
-    
-    
-    @IBAction func onLogout(_ sender: Any) {
+
+
+    @IBAction func onSignUp(_ sender: Any) {
+        
+        let user = PFUser()
+        user.username = usernameTextField.text
+        user.password = passwordTextField.text
+                
+        user.signUpInBackground{ (success, error) in
+            if success {
+                self.performSegue(withIdentifier: "landingToMain", sender: nil)
+            } else {
+                print("ERROR: \(String(describing: error?.localizedDescription))")
+            }
+        }
     }
     
 }
