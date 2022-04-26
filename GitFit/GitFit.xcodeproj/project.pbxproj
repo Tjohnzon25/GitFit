@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2214285228166E73005A83F6 /* MyWorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2214285128166E73005A83F6 /* MyWorkoutCell.swift */; };
+		2214285428167AAC005A83F6 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2214285328167AAC005A83F6 /* AccountViewController.swift */; };
 		228485BD280DD45B0009D871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228485BC280DD45B0009D871 /* AppDelegate.swift */; };
 		228485BF280DD45B0009D871 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228485BE280DD45B0009D871 /* SceneDelegate.swift */; };
 		228485C4280DD45B0009D871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228485C2280DD45B0009D871 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2214285128166E73005A83F6 /* MyWorkoutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkoutCell.swift; sourceTree = "<group>"; };
+		2214285328167AAC005A83F6 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		228485B9280DD45B0009D871 /* GitFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		228485BC280DD45B0009D871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		228485BE280DD45B0009D871 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 				228485D2280DDB550009D871 /* MyWorkoutViewController.swift */,
 				228485D4280DDB720009D871 /* SearchViewController.swift */,
 				228485D6280DDB900009D871 /* WeeklyScheduleViewController.swift */,
+				2214285128166E73005A83F6 /* MyWorkoutCell.swift */,
+				2214285328167AAC005A83F6 /* AccountViewController.swift */,
 			);
 			path = GitFit;
 			sourceTree = "<group>";
@@ -97,7 +103,6 @@
 				A404A474B408BFBAE3A6BE01 /* Pods-GitFit.debug.xcconfig */,
 				454FD4359909BA2949DCFBA7 /* Pods-GitFit.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -218,8 +223,10 @@
 			files = (
 				228485D7280DDB900009D871 /* WeeklyScheduleViewController.swift in Sources */,
 				228485D5280DDB720009D871 /* SearchViewController.swift in Sources */,
+				2214285428167AAC005A83F6 /* AccountViewController.swift in Sources */,
 				228485D3280DDB550009D871 /* MyWorkoutViewController.swift in Sources */,
 				228485BD280DD45B0009D871 /* AppDelegate.swift in Sources */,
+				2214285228166E73005A83F6 /* MyWorkoutCell.swift in Sources */,
 				228485D1280DD94C0009D871 /* LandingViewController.swift in Sources */,
 				228485BF280DD45B0009D871 /* SceneDelegate.swift in Sources */,
 			);
