@@ -7,5 +7,9 @@ target 'GitFit' do
 
   # Pods for GitFit
   pod 'Parse'
+  pod 'AlamofireImage'
+    # Pods for testing
+
+  
 
 end
