@@ -80,6 +80,10 @@ Our idea is an exercise app that allows users to make an account to browse throu
 * login and Sign up work properly
 * Scheduling works but every user can view it unfortunately.
 * We will continue to try and implement a search function for the meantime
+- [x] Workouts
+- [x] Login in
+- [x] Account
+- [x] Schedule
 
 Here is a short video of our progress
 
