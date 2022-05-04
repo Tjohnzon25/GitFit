@@ -74,3 +74,17 @@ Our idea is an exercise app that allows users to make an account to browse throu
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+## Unit 13 Update 
+* All stories have been polished further and they all serve a purpose now. 
+* login and Sign up work properly
+* Scheduling works but every user can view it unfortunately.
+* We will continue to try and implement a search function for the meantime
+
+Here is a short video of our progress
+
+<img src='http://g.recordit.co/aUbouwf1kU.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
+
+
